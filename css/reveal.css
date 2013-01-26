@@ -596,7 +596,7 @@ body {
 
 .reveal .slides>section {
 	left: -50%;
-	top: -50%;
+	top: -5%;
 }
 
 .reveal .slides>section.present,

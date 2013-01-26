@@ -14,6 +14,8 @@ var opts = {
 	baseDir :   __dirname + '/../../'
 };
 
+console.log(opts.baseDir);
+
 io.sockets.on('connection', function(socket) {
 	socket.on('slidechanged', function(slideData) {
 		socket.broadcast.emit('slidedata', slideData);
