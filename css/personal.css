@@ -1,0 +1,21 @@
+.pie{
+    margin-top:50px !important;
+    height:60px;
+    width:100%;
+    font-size:xx-small;
+}
+.subtitulo{
+    font-size:medium !important;
+    text-align:left;
+    font-weight:bold !important;
+    width:50%;
+    display:inline-block;
+}
+
+.num{
+  font-size:medium !important;
+  font-weight:bold !important;
+  text-align:right;
+  width:50%;
+  display:inline-block;
+}
